@@ -53,7 +53,7 @@ void setup(){
     client.print("Led is now: ");
     if(Value == HIGH){client.print("On");}else{client.print("Off");}
     client.println("<br><br>");
-    client.println("<a href=\"/LED=ON\"\" ><button>On</button></a>");
+    client.println("<a href=\"/LED=ON\"\" ><button>It is On</button></a>");
     client.println("<a href\"/LED=OFF\"\"><button>Off</button></a><br />");
     client.println("</html>");
     delay(1);
